@@ -1,0 +1,86 @@
+:host {
+  font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+}
+
+[drawer] {
+  background-color: #fff;
+}
+
+[main] > div {
+  padding: 2em;
+}
+
+[drawer] > core-item {
+  padding: 1em;
+}
+
+[main] paper-checkbox {
+  margin-right: 1em;
+}
+
+[main] {
+  height: 100%;
+  background-color: #f1f1f3;
+}
+
+[drawer] core-toolbar {
+  background-color: #4F7DC9;
+  color: #fff;
+}
+
+[main] core-toolbar {
+  background-color: #526E9C;
+  color: #fff;
+}
+
+paper-fab {
+  background-color: #e0a30b;
+  position: relative;
+  right: 600px;
+  z-index: 10;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+}
+
+*[data-fade-selected="true"] .item[data-done="true"] {
+  opacity: 0.3;
+}
+
+paper-button[raisedButton].colored {
+  width: 100%;
+  background: #4285f4;
+  color: #fff;
+  fill: #fff;
+}
+
+.fit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-bar {
+  position: relative;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.16);
+}
+
+.bottom-bar.wide {
+  box-sizing: border-box;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
